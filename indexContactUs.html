@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="img/large.png" type="image/x-icon">
+    <!-- all links of the website -->
+    <link rel="stylesheet" href="./css/mainCotactUs.css">
+    <!--  ---------------------------   -->
+</head>
+<body>
+        <!-- start of navbar -->
+        <a id="backToTop" class="scrollup"><i class="fa fa-angle-up"></i></a>
+        <header class="headeClass" id="header">
+          <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <a class="navbar-brand col-4 col-lg-2 col-md-3" href="index.html">
+                <img src="./img/logo_white (1).png" alt="">
+            </a>
+            <button id="signIn" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav col-12 justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Real Estate <span class="sr-only">(current)</span></a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Add&nbsp;property</a>
+                  </li>
+                              <li class="nav-item">
+                    <a class="nav-link" href="#">Compounds</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Price Guide</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Articles</a>
+                  </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="indexAboutUs.html">About Us<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="indexContactUs.html">Contact Us</a>
+                  </li>
+                  <a href="#" class="btn light-btn col-2" id="mainBbtn" data-toggle="modal" data-target="#modalLoginForm"> <img src="./img/1.svg" style="width:21px;" width="21">sign in</a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+          <!--  end of the navbar -->
+          <section class="contactUs">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1 class="contact_title p-0 mt-5 mb-4 justify-content-lg-start">Can we help you?</h1>
+                  <p>We are happy to use E Rent Gar.<br>
+                    Send us your inquiry and we will reply to you as soon as possible</p>
+                    <p class="small">Contact us through e-mail</p>
+                    <a class="mail" href="mailto:mena.shafik.cv.com">
+                        <i class="fa-regular fa-envelope"></i>  
+                       <span> Info@E.RentGar.com</span>
+                    </a>
+                    <p class="small mt-lg-3">Or through social networking sites</p>
+                    <ul class="social_media">
+                        <a class="icons" href="#"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                        <a class="icons" href="#"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+                        <a class="icons" href="#"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+                        <a class="icons" href="#"><i class="fa-brands fa-square-youtube fa-2x"></i></a>
+                    </ul>
+                </div>
+                <div class="col-sm-6 mt-5 mb-5 text-center">
+                  <div class="contact-form">
+                    <div id="sucessMsg" class="alert alert-success col-12 text-left">Sent Succesfully</div>
+                  <form class="form-row text-center">
+                    <div class="form-group col-md-12">
+                      <input type="text" class="form-control" id="name" placeholder="Your Name" name="ClientName" required>
+                    </div>
+                    <div class="form-group col-md-12">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="e-mail" name="email" required>
+                    </div>
+                    <div class="form-group col-md-12">
+                      <input type="tel" class="form-control" id="phone" placeholder="Your Phone" name="phone" pattern="01[0-2,5]{1}[0-9]{8}" required>
+                    
+                    </div>
+                    <div class="form-group col-md-12">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="Enter Your Message" required ></textarea>
+                    </div>
+                      <button id="submit" onclick="validationOfSubmin()" type="submit" class="btn col-md-12">Send</button>
+                  </form>
+                </div>
+              </div>
+              </div>
+              <div class="container">
+                <div class="row top_footer">
+                  <div class="col-md-3 col-sm-6">
+                    <h2>Properties for sale</h2>
+                    <ul>
+                      <il>
+                        <h3>
+                          <a href="#"> Egypt real estate</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Cairo real estate</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Alexandria real estate</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Cairo compounds</a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Hurghada Compounds</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Sharm El Sheikh Compounds</a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#">Dahab compounds</a>
+                        </h3>
+                        </il>
+                    </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <h2>property in Cairo</h2>
+                    <ul>
+                      <il>
+                        <h3>
+                          <a href="#">Residential apartments for sale in Cairo</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Residential apartments for rent in Cairo</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Residential villas for sale in Cairo</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Residential villas for rent in Cairo
+                            
+                            
+                            </a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#">Commercial offices for sale in Cairo</a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Commercial offices for rent in Cairo</a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#">Lands for sale in Cairo</a>
+                        </h3>
+                        </il>
+                    </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <h2>property in Alexandria</h2>
+                    <ul>
+                      <il>
+                        <h3>
+                          <a href="#">Residential apartments for sale in Alex
+                           </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Residential apartments for rent in Alex
+                           </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Residential villas for sale in Alex
+                            </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Residential villas for rent in Alex
+                           </a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Commercial offices for sale in Alex
+                           </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Commercial offices for rent in Alex
+                            </a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#">Lands for sale in Alex</a>
+                        </h3>
+                        </il>
+                    </ul>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <h2>E-ren-gar website</h2>
+                    <ul>
+                      <il>
+                        <h3>
+                          <a href="#"> Apartments for sale
+                            </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Apartments for Rent
+                            </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">New Cairo price guide
+                           </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#"> New Administrative Capital Prices Guide
+                           </a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Elmohaniseen price guide
+                            </a>
+                        </h3>
+                       </il>
+                      <il>
+                        <h3>
+                          <a href="#">Maadi price guide
+                           </a>
+                        </h3>
+                        </il>
+                      <il>
+                        <h3>
+                          <a href="#"> Altagamoa price guide</a>
+                        </h3>
+                        </il>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            </section>
+<!--  start the footer section -->
+<footer class="about_footer">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-3">
+      <img src="./img/logo_white.png" alt="">
+    </div>
+  <div class="col-sm-6 mt-4">
+    <h4>Site Map</h4>
+    <ul>
+      <li class="foot_item">
+        <a class="foot-link" href="#">Real estates</a>
+      </li>
+      <li class="foot_item">
+        <a class="foot-link" href="#">Add property</a>
+      </li>
+      <li class="foot_item">
+        
+        <a class="foot-link" href="#">compounds</a>
+  
+      </li>
+      <li class="foot_item">
+        <a class="foot-link" href="#">Price guide</a>
+      </li>
+      <li class="foot_item">
+        <a class="foot-link" href="#">Articles</a>
+        </li>
+      <li class="foot_item">
+        <a class="foot-link" href="indexAboutUs.html">About Us</a>
+      </li>
+      <li class="foot_item">
+        <a class="foot-link" href="#">Q&A</a>
+      </li>
+      <li class="foot_item">
+        <a class="foot-link" href="indexContactUs.html"> Connect Us</a>
+      </li>
+      <li class="foot_item">
+        <a class="foot-link" href="#">Privacy Agreement</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-sm-3 mt-4">
+    <h4>
+      Contact Us On
+    </h4>
+    <p class="p_footer">
+      E-mail :
+      <a class="foot-link" href="menashafik2018@gmail.com">
+        info@erengar.com
+      </a>
+    </p>
+  <p class="p_footer">social media sites</p>
+  <div class="col-12 text-left">
+    <a class="foot__link" href="#"><i class="fa-brands fa-square-facebook fa-2x"></i> </a>
+    <a class="foot__link" href="#"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+    <a class="foot__link" href="#"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+   </div>
+  </div>
+  </div>
+  </div>
+
+  </footer>
+    <!--  end the footer section -->
+
+<!-- start sign in and sign up part -->
+
+<div id="containerBox">
+  <div id="containerBoxItem">
+    <i id="close" class="fa-solid fa-xmark" ></i>
+<div class="model-body">
+  <form action="">
+  <img src="./img/logo.png" alt="">
+</div>
+<div class="md-model">
+  <label class="login-label" data-error="worng" data-success="right" for="tele">Phone Number</label>
+  <input name="tel" type="tel" class="form-control validate col-10" maxlength="11" minlength="11" placeholder="01xxxxxxxxx" pattern="01[0-2,5]{1}[0-9]{8}" required>
+</div>
+<div class="md-model mt-3">
+  <label class="login-label" data-error="worng" data-success="right" for="Password">Password</label>
+  <div class="input_group" id="show_hide_password">
+  <input name="password" type="password" class="form-control validate col-10" id="passsssss" required>
+  <div class="input_show_hide">
+    <span id="span_icon">
+      <i id="hide1" class="fa-solid fa-eye"></i>
+      <i id="hide2" class="fa-solid fa-eye-slash"></i>
+</span>
+  </div>
+</div>
+</div>
+<button id="logInSubmit" type="submit" class="btn btn-primary login col-10 mt-4 ml-5">Log IN</button>
+<a href="" id="second_sign_up" class="first_way_sign_up" data-toggle="modal" data-dismiss="modal" data-target="#modalRegisterForm">Don't have account ! ,Sign Up</a>
+</form>
+  </div>
+</div>
+<!-- end sign in part -->
+
+<!-- start sign up and part -->
+<div id="containerSignUp">
+  <div id="containerSignUpItem">
+    <i id="close2" class="fa-solid fa-xmark" ></i>
+    <div class="model-body">
+      <form action="">
+    <img src="./img/logo.png" alt="">
+    </div>
+    <div class="md-model">
+      <label class="login-label" data-error="worng" data-success="right" for="tele">Phone Number</label>
+      <input name="tel" type="tel" class="form-control validate col-10" maxlength="11" minlength="11" placeholder="01xxxxxxxxx" pattern="01[0-2,5]{1}[0-9]{8}" required>
+    </div>
+    <div class="md-model mt-3">
+      <label class="login-label" data-error="worng" data-success="right" for="Password">Password</label>
+      <div class="input_group" id="show_hide_password">
+      <input name="password" type="password" class="form-control validate col-10" id="passsssss" required>
+      <div class="input_show_hide">
+        <span id="span_icon">
+          <i id="hide1" class="fa-solid fa-eye"></i>
+          <i id="hide2" class="fa-solid fa-eye-slash"></i>
+    </span>
+      </div>
+    </div>
+    </div>
+    <button id="logInSubmit" type="submit" class="btn btn-primary login col-10 mt-4 ml-5">Log IN</button>
+    <a href="" id="second_sign_up" class="first_way_sign_up" data-toggle="modal" data-dismiss="modal" data-target="#modalRegisterForm">Don't have account ! ,Sign Up</a>
+    </form>
+      </div>
+  </div>
+  </div>
+  <!-- end sign up part -->
+  
+          <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="js/mainContactsUs.js"></script>
+</body>
+</html>

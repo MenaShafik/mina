@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome in E-Rent-Gar</title>
+    <link rel="shortcut icon" href="./img/large.png" type="image/x-icon">
+    <!-- all links of the website -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!------------------------------->
+</head>
+<body>
+        <!-- start of navbar -->
+        <a id="backToTop" class="scrollup"><i class="fa fa-angle-up"></i></a>
+        <header class="headeClass" id="header">
+          <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <a class="navbar-brand col-4 col-lg-2 col-md-3" href="index.html">
+                <img src="./img/logo_white (1).png" alt="">
+            </a>
+            <button id="signIn" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav col-12 justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Real Estate <span class="sr-only">(current)</span></a>
+                </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Add&nbsp;property</a>
+                  </li>
+                              <li class="nav-item">
+                    <a class="nav-link" href="#">Compounds</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Price Guide</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Articles</a>
+                  </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" href="indexAboutUs.html">About Us<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="indexContactUs.html">Contact Us</a>
+                  </li>
+                  <a href="#" class="btn light-btn col-2" id="mainBbtn" data-toggle="modal" data-target="#modalLoginForm"> <img src="./img/1.svg" style="width:21px;" width="21">sign in</a>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+        <!--  end of navbar -->
+
+        <!-- start the first secrion in home page -->
+<div class="home">
+  <section class="center">
+    <form action="search.html" method="post">
+<h3>find your perfect home</h3>
+<div class="box">
+  <p>enter location <span>*</span></p>
+  <input type="text" name="location" class="input" required maxlength="20" placeholder="Enter location">
+</div>
+<div class="flex">
+<div class="box">
+    <p>property type <span>*</span></p>
+<select name="type" class="input" required>
+  <option value="flat">flat</option>
+  <option value="house">house</option>
+  <option value="shop">shop</option>
+</select>  
+</div>
+<div class="box">
+  <p>how many BHK <span>*</span></p>
+<select name="BHK" class="input" required>
+<option value="1">1BHK</option>
+<option value="2">2BHK</option>
+<option value="3">3BHK</option>
+<option value="4">4BHK</option>
+<option value="5">5BHK</option>
+<option value="6">6BHK</option>
+<option value="7">7BHK</option>
+<option value="8">8BHK</option>
+</select>  
+</div> 
+<div class="box">
+  <p>minimum buget<span>*</span></p>
+<select name="minimum" class="input" required>
+  <option value="500,000">5 lac</option>
+  <option value="1000,000">10 lac</option>
+  <option value="2,000,000">20 lac</option>
+  <option value="3,000,000">30 lac</option>
+  <option value="4,000,000">40 lac</option>
+  <option value="5,000,000">50 lac</option>
+  <option value="6,000,000">60 lac</option>
+  <option value="7,000,000">70 lac</option>
+  <option value="8,000,000">80 lac</option>
+  <option value="9,000,000">90 lac</option>
+  <option value="10,000,000">1 cr</option>
+</select>  
+</div> 
+<div class="box">
+  <p>maximum buget <span>*</span></p>
+<select name="maximum" class="input" required>
+  <option value="500,000">5 lac</option>
+  <option value="1000,000">10 lac</option>
+  <option value="2,000,000">20 lac</option>
+  <option value="3,000,000">30 lac</option>
+  <option value="4,000,000">40 lac</option>
+  <option value="5,000,000">50 lac</option>
+  <option value="6,000,000">60 lac</option>
+  <option value="7,000,000">70 lac</option>
+  <option value="8,000,000">80 lac</option>
+  <option value="9,000,000">90 lac</option>
+  <option value="10,000,000">1 cr</option>
+</select>  
+</div>
+</div>
+<input type="submit" value="search property" name="search" class="btn inline-btn">
+    </form>
+  </section>
+</div>
+        <!-- end the first secrion in home page -->
+
+        <!--  start the footer section -->
+<footer class="about_footer">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-3">
+    <img class="img_footer" src="./img/logo_white.png" alt="">
+  </div>
+<div class="col-sm-6">
+  <h4>Site Map</h4>
+  <ul>
+    <li class="foot_item">
+      <a class="foot-link" href="#">Real estates</a>
+    </li>
+    <li class="foot_item">
+      <a class="foot-link" href="#">Add property</a>
+    </li>
+    <li class="foot_item">
+      
+      <a class="foot-link" href="#">compounds</a>
+
+    </li>
+    <li class="foot_item">
+      <a class="foot-link" href="#">Price guide</a>
+    </li>
+    <li class="foot_item">
+      <a class="foot-link" href="#">Articles</a>
+      </li>
+    <li class="foot_item">
+      <a class="foot-link" href="indexAboutUs.html">About Us</a>
+    </li>
+    <li class="foot_item">
+      <a class="foot-link" href="#">Q&A</a>
+    </li>
+    <li class="foot_item">
+      <a class="foot-link" href="indexContactUs.html"> Connect Us</a>
+    </li>
+    <li class="foot_item">
+      <a class="foot-link" href="#">Privacy Agreement</a>
+    </li>
+  </ul>
+</div>
+<div class="col-sm-3">
+  <h4>
+    Contact Us On
+  </h4>
+  <p class="p_footer">
+    E-mail :
+    <a class="foot-link" href="menashafik2018@gmail.com">
+      info@erengar.com
+    </a>
+  </p>
+<p class="p_footer">social media sites</p>
+<div class="col-12 p-0">
+  <a class="foot__link" href="#"><i class="fa-brands fa-square-facebook fa-2x"></i> </a>
+  <a class="foot__link" href="#"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
+  <a class="foot__link" href="#"><i class="fa-brands fa-square-twitter fa-2x"></i></a>
+ </div>
+</div>
+</div>
+</div>
+</footer>
+  <!--  end the footer section -->
+  
+
+<!-- start sign in and part -->
+<div id="containerBox">
+  <div id="containerBoxItem">
+    <i id="close" class="fa-solid fa-xmark" ></i>
+<div class="model-body">
+  <form action="">
+  <img src="./img/logo.png" alt="">
+</div>
+<div class="md-model">
+  <label class="login-label" data-error="worng" data-success="right" for="tele">Phone Number</label>
+  <input name="tel" type="tel" class="form-control validate col-10" maxlength="11" minlength="11" placeholder="01xxxxxxxxx" pattern="01[0-2,5]{1}[0-9]{8}" required>
+</div>
+<div class="md-model mt-3">
+  <label class="login-label" data-error="worng" data-success="right" for="Password">Password</label>
+  <div class="input_group" id="show_hide_password">
+  <input name="password" type="password" class="form-control validate col-10" id="passsssss" required>
+  <div class="input_show_hide">
+    <span id="span_icon">
+      <i id="hide1" class="fa-solid fa-eye"></i>
+      <i id="hide2" class="fa-solid fa-eye-slash"></i>
+</span>
+  </div>
+</div>
+</div>
+<button id="logInSubmit" type="submit" class="btn btn-primary login col-10 mt-4 ml-5">Log IN</button>
+<a href="" id="second_sign_up" class="first_way_sign_up" data-toggle="modal" data-dismiss="modal" data-target="#modalRegisterForm">Don't have account ! ,Sign Up</a>
+</form>
+  </div>
+</div>
+<!-- end sign in part -->
+
+<!-- start sign up and part -->
+<div id="containerSignUp">
+<div id="containerSignUpItem">
+  <i id="close2" class="fa-solid fa-xmark" ></i>
+  <div class="model-body">
+    <form action="">
+  <img src="./img/logo.png" alt="">
+  </div>
+  <div class="md-model">
+    <label class="login-label" data-error="worng" data-success="right" for="tele">Phone Number</label>
+    <input name="tel" type="tel" class="form-control validate col-10" maxlength="11" minlength="11" placeholder="01xxxxxxxxx" pattern="01[0-2,5]{1}[0-9]{8}" required>
+  </div>
+  <div class="md-model mt-3">
+    <label class="login-label" data-error="worng" data-success="right" for="Password">Password</label>
+    <div class="input_group" id="show_hide_password">
+    <input name="password" type="password" class="form-control validate col-10" id="passsssss" required>
+    <div class="input_show_hide">
+      <span id="span_icon">
+        <i id="hide1" class="fa-solid fa-eye"></i>
+        <i id="hide2" class="fa-solid fa-eye-slash"></i>
+  </span>
+    </div>
+  </div>
+  </div>
+  <button id="logInSubmit" type="submit" class="btn btn-primary login col-10 mt-4 ml-5">Log IN</button>
+  <a href="" id="second_sign_up" class="first_way_sign_up" data-toggle="modal" data-dismiss="modal" data-target="#modalRegisterForm">Don't have account ! ,Sign Up</a>
+  </form>
+    </div>
+</div>
+</div>
+<!-- end sign up part -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
